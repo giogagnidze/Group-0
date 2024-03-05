@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 62</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Create an HTML form with fields for username and password. Use JavaScript to validate that the username is at least 5 characters long and the password is at least 8 characters long when the form is submitted. if validate add them into object. -->
+    <form id="form">
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="button" onclick="validForm()">Login</button>
+    </form>
+    <script>
+        function validForm() {
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username.length < 5) {
+                alert("Username must be at least 5 characters long");
+                return false;
+            }
+            if (password.length < 8) {
+                alert("Password must be at least 8 characters long");
+                return false;
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
