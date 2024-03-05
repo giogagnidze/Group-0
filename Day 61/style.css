@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 5s;
+}
+  
+div:active{
+    transform: translate(0px, -20px)
+} 
+  
+div h1{
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+    border-width: 0%;
+    border: solid rgb(255, 255, 255);
+}
+  
+div h1:hover{
+    border-width: 50%;
+}
+  
+button{
+    background-color: red;
+    border-radius: 20px;
+    padding: 30px 60px;
+    transition: 0.4s;
+}
+  
+button:hover{
+    transform: scale(90%);
+}
+  
+button:active{
+    transform: scale(50%);
+}

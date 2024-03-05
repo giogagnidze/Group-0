@@ -1,0 +1,28 @@
+ul{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+ul li{
+    list-style: none;
+}
+h1{
+    padding-top: 4rem;
+    font-size: 100%;
+    display: flex;
+    justify-content:center;
+}
+#SignIn{
+
+    background-color: rgb(186, 38, 134);
+}
+#search{
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: larger;
+    border-radius: 50px;
+}
