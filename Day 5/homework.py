@@ -1,0 +1,16 @@
+
+name = input("whats your name: ")
+surname = input("whats your surname: ")
+age = input("how old are you: ")
+height = input("your height: ")
+city = input("where you living: ")
+country = input("In which country do you live: ")
+ip_adress = input("your ip: ")
+facebook_username = input("what is your facebook username: ")
+facebook_password = input("what is your facebook password: ")
+studying = input("where you studying right now: ")
+hobby = input("what is your hobby: ")
+gmail = input("your gmail: ")
+gmail_password = input("your gmail_passsword: ")
+#im gonna hack your accoung :DD
+print("me mqvia "+ name + " " + surname + " var "+ age +" wlis " +" simagle "+ height + " vcxovrob " + city + " " + country + " " + "chemi ip aris " + ip_adress + " " + "facebook-i" + " " + facebook_username + " " + "paroli" + facebook_password + " " + "me vswavlob" + " " + studying + " " + "chemi hobia" + " " + hobby + " " + "gmail-i" + " " +  gmail + " " + "gmail -is paroli" + gmail_password)
