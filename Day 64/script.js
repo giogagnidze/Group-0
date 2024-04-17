@@ -80,6 +80,3 @@ function main() {
 
 main();
 
-// Write a program that prompts the user to enter a series of numbers, separated by spaces.
-// Split the input string into an array of numbers.
-// Use an array method to calculate and display the sum of all the numbers in the array.
